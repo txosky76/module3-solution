@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: green;  
+}
+
+/*1292368*/
+
+/** HEADER **/
+#header-nav {  
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav .navbar-brand {
+  padding-top: 25px;
+  height: 90px;  
+}
+.navbar-brand h1 {   
+  color: red;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;  
+  margin-top: 0;  
+  margin-bottom: 0;
+	 
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: red;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid red;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+	height: 60px;
+	
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+h2{	
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section{
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+/* END HOME PAGE */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .row{
+	width: 80%;
+	margin: 0 auto;
+   }  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+	.container{
+		width: 90%;
+	}
+  
+}
+
+
+
+
+
+
